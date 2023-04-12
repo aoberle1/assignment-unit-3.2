@@ -60,6 +60,7 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+let index = 0
 while ( stars ){
   console.log( 'Some stars using while:', stars );
   stars++
@@ -75,3 +76,9 @@ while ( value <= max ){
 }
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let value2 = 10
+let minimum = 5
+while ( value2 >= minimum ){
+  console.log( 'The countdown is at:', value2 )
+  value2--
+}
